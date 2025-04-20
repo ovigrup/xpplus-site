@@ -1,8 +1,12 @@
-
 const root = document.getElementById('root');
 root.innerHTML = `
   <main class="min-h-screen bg-gradient-to-br from-black via-gray-900 to-purple-900 text-white px-6 py-16 font-sans">
-    <div class="max-w-7xl mx-auto space-y-24">
+    <div class="max-w-7xl mx-auto space-y-24 relative">
+      <!-- Logo Section -->
+      <div class="absolute top-4 left-4">
+        <img src="./xpplus-logo transparent final.png" alt="XPPLUS Logo" class="h-12">
+      </div>
+      <!-- Content Sections -->
       <section class="text-center space-y-8">
         <h1 class="text-6xl font-extrabold tracking-tight bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">XPPLUS (XP+)</h1>
         <p class="text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -13,6 +17,7 @@ root.innerHTML = `
           <a href="https://www.sushi.com/swap?chainId=137&token0=POL&token1=0xB12271D2A7deFd5Ae7088bc929Ce4235dE71516F" class="bg-gradient-to-r from-purple-500 to-pink-600 hover:opacity-90 px-6 py-3 rounded-2xl text-lg font-semibold shadow-lg transition" target="_blank" rel="noopener noreferrer">🛒 Buy XP+</a>
         </div>
       </section>
+      <!-- Other Sections -->
       <section class="text-center">
         <h2 class="text-4xl font-bold mb-10">XP+ Wallets</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
