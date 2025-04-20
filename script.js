@@ -49,7 +49,7 @@ root.innerHTML = `
         <ol class="list-decimal list-inside space-y-3 text-left text-lg text-gray-300 max-w-xl mx-auto">
           <li>Connect your wallet to Polygon</li>
           <li>Go to <a href="https://www.sushi.com/swap?chainId=137&token0=POL&token1=0xB12271D2A7deFd5Ae7088bc929Ce4235dE71516F" class="underline text-pink-400 hover:text-pink-300" target="_blank" rel="noopener noreferrer">SushiSwap</a></li>
-          <li>Swap MATIC for XPPLUS using the token address</li>
+          <li>Swap MATIC for XP+ using the token address</li>
           <li>Use XP+ in games, staking, and purchases</li>
         </ol>
       </section>
